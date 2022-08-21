@@ -4,17 +4,15 @@ Console.Write("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int c = int.Parse(Console.ReadLine());
-int max;
+int max = a;
 
-if (a > c)
+if (max < b)
 {
-    max = a;    
+    max = b;    
 }
-else if (b > c)
+else if (max < c)
 {
-    max = b;
-}
-else 
     max = c;
+}
 Console.Write("max = ");
 Console.WriteLine(max);

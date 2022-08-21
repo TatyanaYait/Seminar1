@@ -1,3 +1,3 @@
-﻿Console.WriteLine("Ведите трехзначное число ");
+﻿Console.WriteLine("Введите трехзначное число ");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine(a%10);
